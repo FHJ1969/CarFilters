@@ -1,3 +1,5 @@
+/* Général */
+
 * {
     margin: 0;
     padding: 0;
@@ -13,6 +15,8 @@ body {
     flex-direction: column;
     min-height: 100vh;
 }
+
+/* Header */
 
 header {
     background-color: #be1e2d;
@@ -54,11 +58,10 @@ header img {
     background-color: #991b21;
 }
 
+/* Main, Titre et bouttons */
+
 main {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 2rem 0;
-    flex: 1;
+    padding: 2rem 2rem;
 }
 
 .titre-page {
@@ -84,6 +87,49 @@ main {
     background-color: #991b21;
     transform: scale(1.05);
 }
+
+/* Cartes voitures */
+
+#cartes{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.boite-lien{
+    display: block;
+    width: 33%;
+    border-radius: 18px;
+    padding: 0rem;
+    margin: 1rem;
+    background-color: #be1e2d;
+    text-decoration: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.boite-lien:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.image-voiture{
+    width: 100%;
+    border-radius: 18px 18px 0 0;
+    height: 200px;
+    object-fit: cover;
+}
+
+.texte-balise{
+    margin: 0 15px 10px;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.boite-lien:hover .texte-balise {
+    color: white;
+}
+
+/* Footer */
 
 footer {
     background-color: #be1e2d;
