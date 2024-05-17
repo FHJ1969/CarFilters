@@ -1,7 +1,6 @@
 //Appel du fichier JSON et définition en variable
 
 let reponse = await fetch("/assets/filtres.json");
-
 let filtres = await reponse.json();
 
 //Création des cartes

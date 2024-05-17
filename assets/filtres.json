@@ -4,20 +4,20 @@
     "genre": "Luxe",
     "prix": "200000",
     "image": "assets/images/voiture-luxe.jpg",
-    "lien": "../index.html"
+    "lien": "index.html"
   },
   {
     "nom": "Voiture de Sport",
     "genre": "Sport",
     "prix": "150000",
     "image": "assets/images/voiture-sport.jpg",
-    "lien": "../index.html"
+    "lien": "index.html"
   },
   {
     "nom": "Voiture Vintage",
     "genre": "Vintage",
     "prix": "180000",
     "image": "assets/images/voiture-ancienne.jpg",
-    "lien": "../index.html"
+    "lien": "index.html"
   }
 ]
